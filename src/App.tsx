@@ -20,7 +20,7 @@ function setWasmUrl() {
     }
     getZXingModule({
       locateFile: () => {
-        return "/wasm/reader/zxing_reader.wasm";
+        return "../wasm/reader/zxing_reader.wasm";
       },
     }).then(() => setIsFetch(false));
   }, [isFetch]);
