@@ -123,7 +123,10 @@ function App() {
 
   return (
     <>
-      <h1>zxing-wasm qrcode test</h1>
+      <h1>
+        zxing-wasm qrcode test [
+        <a href="https://github.com/sinofseven/trial-zxing-wasm">Code</a>]
+      </h1>
       <p>
         <input type="file" onChange={changeFile} />
       </p>
