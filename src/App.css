@@ -1,0 +1,24 @@
+table, th, td {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+table {
+    margin-bottom: 0.5rem;
+}
+
+th, td {
+    padding: 0.5rem;
+}
+
+td {
+    min-width: 5rem;
+}
+
+p#pimg {
+    text-align: center;
+}
+
+img#image {
+    max-width: 90vw;
+}
