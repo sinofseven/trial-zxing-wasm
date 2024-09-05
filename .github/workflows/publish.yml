@@ -18,10 +18,10 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: my_site
-          path: dist
+          path: ./dist
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: ./dist
 
   deploy:
     needs: build
